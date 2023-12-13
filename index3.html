@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando a Tag < fieldset></title>
+    <style>
+        .row{
+            margin:5px;
+        }
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset{
+            margin: 15px 0;
+            border-radius: 10px;
+            border-color: rgb(161, 154, 154);
+        }
+    </style>
+</head>
+        <body>
+        <h3>Utilizando a Tag < fieldset></h3>
+        <h2>Formulário de cadastro:</h2>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                    <div class="row">
+            <label>Nome: </label><input type="text">
+            <label>e-mail: </label><input type="text">
+                    </div>       
+                    <div class="row">
+                    <label>Profissão: </label><input type="text">
+                    <label>Empresa: </label><input type="text">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                <div class="row">
+                    <label>Endereço: </label><input type="text">      
+                    <label>Número: </label><input style="width: 40px" type="text" width="10">
+                </div>
+                <div class="row">  
+                    <label>Bairro </label><input type="text">
+                </div>    
+                <div class="row">
+                    <label>Cidade/UF: </label><input type="text">
+                </div>    
+                </fieldset> 
+                <fieldset>
+                    <legend>Informações de Contato</legend>  
+                <div class="row">
+                    <label>Celular: </label><input type="text">      
+                    <label>Whatsapp: </label><input type="text">
+                </div>
+                <div class="row">    
+                    <label>LinkDin: </label><input type="text">
+                    <label>Github: </label><input type="text">
+                </div>
+            </fieldset>
+                    <button type="reset">Limpar</button>
+                    <button type="submit" onclick="alert('Formulário enviado')">Enviar</button>
+                </form>                
+            </body>
+</html>
