@@ -6,3 +6,4 @@
 index.html | Tags para formatação do HTML<br>
 index2.html | Tags para formatação do HTML<br>
 index3.html | Utilizando a Tag < fieldset>
+cores.html | Formas de cores para utilizar usando CSS.
