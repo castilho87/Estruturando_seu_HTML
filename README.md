@@ -8,3 +8,4 @@ index2.html | Tags para formatação do HTML<br>
 index3.html | Utilizando a Tag < fieldset><br>
 cores.html | Formas de cores para utilizar usando CSS.<br>
 imagens.html | Propriedade Object-fit<br>
+imagens2.html | Propriedade Object-position<br>
